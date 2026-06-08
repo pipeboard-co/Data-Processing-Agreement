@@ -1,8 +1,8 @@
 # Data Processing Agreement
 
-Also referred to as *Auftragsverarbeitungsvertrag* (AVV) under German law.
+Also referred to as _Auftragsverarbeitungsvertrag_ (AVV) under German law.
 
-**Last updated:** April 28, 2026
+**Last updated:** June 8, 2026
 
 This Data Processing Agreement (the **"DPA"**) forms part of the agreement between the customer (**"Customer"**, also referred to as the **"Controller"**) and **ARTELL SOLUÇÕES TECNOLÓGICAS LTDA**, a limited liability company registered in Brazil (CNPJ 53.540.982/0001-70), trading as **Pipeboard** (**"Pipeboard"**, **"we"**, or the **"Processor"**), governing the use of the Pipeboard service (the **"Service"**) under the Pipeboard [Terms of Service](https://pipeboard.co/terms-of-service) and [Privacy Policy](https://pipeboard.co/privacy-policy) (together, the **"Principal Agreement"**).
 
@@ -168,7 +168,7 @@ No formal Data Protection Officer (DPO) is appointed; Pipeboard's privacy contac
 
 ### C. Nature and Purpose of Processing
 
-Pipeboard Processes Customer Personal Data in order to: (i) authenticate users via email/password or OAuth providers; (ii) read and, where the Customer instructs, modify advertising and commerce data on connected platforms (Meta Ads, Google Ads, Pinterest Ads, TikTok Ads, Snap Ads, Shopify); (iii) generate insights, reports, and recommendations through the Customer's chosen MCP client or AI assistant; (iv) operate, secure, monitor, and support the Service; and (v) bill the Customer.
+Pipeboard Processes Customer Personal Data in order to: (i) authenticate users via email/password or OAuth providers; (ii) read and, where the Customer instructs, modify advertising and commerce data on connected platforms (Meta Ads, Google Ads, Pinterest Ads, TikTok Ads, Snap Ads, Shopify); (iii) enable the Customer's chosen AI assistant or LLM client to access and act on that data through Pipeboard's MCP servers, and generate recurring reports through features such as Scheduled Reports; (iv) operate, secure, monitor, and support the Service; and (v) bill the Customer.
 
 ### D. Types of Personal Data
 
@@ -258,19 +258,19 @@ Backups are performed automatically on a regular schedule by the managed databas
 
 Pipeboard engages the following Sub-processors to support the delivery of the Service. Each Sub-processor is bound by a written contract that includes data protection obligations no less protective than those in this DPA.
 
-| Sub-processor | Purpose | Location |
-| --- | --- | --- |
-| Vercel Inc. | Application hosting and global CDN | United States (global edge) |
-| Supabase Inc. (operating on Amazon Web Services) | Managed PostgreSQL database, authentication, file storage | United States (us-east-1) |
-| DigitalOcean LLC | MCP gateway hosting (mcp1, mcp2 nodes) | United States |
-| Stripe, Inc. | Payment processing, billing, tax handling | United States |
-| Anthropic, PBC | Hosted LLM inference (used only on Customer instruction; no training on Customer data) | United States |
-| OpenAI, L.L.C. | Hosted LLM inference (used only on Customer instruction; no training on Customer data) | United States |
-| GitHub, Inc. | Source-code hosting and CI/CD (build and deployment automation) | United States |
-| SigNoz Inc. | Application observability and structured log/trace storage | United States |
-| PostHog Inc. | Product analytics and feature flags | United States / European Union |
-| Customer.io, Inc. | Transactional and lifecycle email delivery | United States |
-| Crisp IM SAS | Customer support messaging | European Union (France) |
+| Sub-processor                                    | Purpose                                                                                | Location                       |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------- | ------------------------------ |
+| Vercel Inc.                                      | Application hosting and global CDN                                                     | United States (global edge)    |
+| Supabase Inc. (operating on Amazon Web Services) | Managed PostgreSQL database, authentication, file storage                              | United States (us-east-1)      |
+| DigitalOcean LLC                                 | MCP gateway hosting (mcp1, mcp2 nodes)                                                 | United States                  |
+| Stripe, Inc.                                     | Payment processing, billing, tax handling                                              | United States                  |
+| Anthropic, PBC                                   | Hosted LLM inference (used only on Customer instruction; no training on Customer data) | United States                  |
+| OpenAI, L.L.C.                                   | Hosted LLM inference (used only on Customer instruction; no training on Customer data) | United States                  |
+| GitHub, Inc.                                     | Source-code hosting and CI/CD (build and deployment automation)                        | United States                  |
+| SigNoz Inc.                                      | Application observability and structured log/trace storage                             | United States                  |
+| PostHog Inc.                                     | Product analytics and feature flags                                                    | United States / European Union |
+| Customer.io, Inc.                                | Transactional and lifecycle email delivery                                             | United States                  |
+| Crisp IM SAS                                     | Customer support messaging                                                             | European Union (France)        |
 
 The list above is current as of the date stated at the top of this DPA. The authoritative, current list lives in [pipeboard-co/Data-Processing-Agreement](https://github.com/pipeboard-co/Data-Processing-Agreement) on GitHub; the commit history is the change log. Subscribe to changes by clicking "Watch" on the repository.
 
