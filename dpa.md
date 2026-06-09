@@ -2,7 +2,7 @@
 
 Also referred to as _Auftragsverarbeitungsvertrag_ (AVV) under German law.
 
-**Last updated:** June 8, 2026
+**Last updated:** June 9, 2026
 
 This Data Processing Agreement (the **"DPA"**) forms part of the agreement between the customer (**"Customer"**, also referred to as the **"Controller"**) and **ARTELL SOLUÇÕES TECNOLÓGICAS LTDA**, a limited liability company registered in Brazil (CNPJ 53.540.982/0001-70), trading as **Pipeboard** (**"Pipeboard"**, **"we"**, or the **"Processor"**), governing the use of the Pipeboard service (the **"Service"**) under the Pipeboard [Terms of Service](https://pipeboard.co/terms-of-service) and [Privacy Policy](https://pipeboard.co/privacy-policy) (together, the **"Principal Agreement"**).
 
@@ -16,8 +16,8 @@ By using the Service, the Customer accepts this DPA. The canonical version is ma
 
 Capitalized terms used but not defined in this DPA have the meanings given in the Principal Agreement or in applicable Data Protection Laws. For the purposes of this DPA:
 
-- **"Data Protection Laws"** means the GDPR, the UK GDPR, the FADP, and any other applicable laws and regulations relating to the protection of Personal Data.
-- **"Personal Data"**, **"Controller"**, **"Processor"**, **"Data Subject"**, **"Processing"**, and **"Personal Data Breach"** have the meanings given to them in the GDPR.
+- **"Data Protection Laws"** means the GDPR, the UK GDPR, the FADP, the Brazilian General Data Protection Law (Lei n. 13.709/2018, the **"LGPD"**), and any other applicable laws and regulations relating to the protection of Personal Data.
+- **"Personal Data"**, **"Controller"**, **"Processor"**, **"Data Subject"**, **"Processing"**, and **"Personal Data Breach"** have the meanings given to them in the GDPR and, where the LGPD applies, the equivalent meanings of _dado pessoal_, _controlador_, _operador_, _titular_, _tratamento_, and _incidente de segurança_ under the LGPD.
 - **"Customer Personal Data"** means the Personal Data Processed by Pipeboard on behalf of the Customer in connection with the Service, as further described in Annex I.
 - **"Sub-processor"** means any third party engaged by Pipeboard to Process Customer Personal Data, as further described in Annex III.
 - **"Standard Contractual Clauses"** or **"SCCs"** means the standard contractual clauses for the transfer of personal data to third countries pursuant to the GDPR adopted by the European Commission in Decision (EU) 2021/914 of 4 June 2021, including any successor or related clauses adopted by a competent authority.
@@ -28,6 +28,8 @@ Capitalized terms used but not defined in this DPA have the meanings given in th
 The Customer is the Controller and Pipeboard is the Processor of Customer Personal Data. Where the Customer acts as a Processor for a third party (the **"Ultimate Controller"**), Pipeboard acts as a Sub-processor. The Customer represents and warrants that it has all necessary authority and lawful basis to instruct Pipeboard to Process Customer Personal Data as described in this DPA.
 
 For Personal Data that Pipeboard processes for its own purposes (for example, account registration data, billing information, security and abuse prevention, and aggregated service analytics), Pipeboard acts as an independent Controller. Pipeboard's processing of such data is described in our [Privacy Policy](https://pipeboard.co/privacy-policy) and is outside the scope of this DPA.
+
+Where the Customer is established in Brazil or the Processing is subject to the LGPD, the Brazil (LGPD) Addendum set out in [Annex IV](#annex-iv--brazil-lgpd-addendum) applies, under which Pipeboard acts as _operador_. As to LGPD-governed Personal Data, Annex IV prevails over this DPA and the Principal Agreement to the extent of any conflict.
 
 ## 3. Subject Matter, Duration, Nature, and Purpose of Processing
 
@@ -65,7 +67,7 @@ Pipeboard does not consider its hyperscale infrastructure providers (such as Ver
 
 ## 8. Assistance with Data Subject Rights
 
-Taking into account the nature of the Processing, Pipeboard will assist the Customer by appropriate technical and organizational measures, insofar as this is possible, for the fulfilment of the Customer's obligation to respond to requests from Data Subjects exercising their rights under Chapter III GDPR (including rights of access, rectification, erasure, restriction, portability, and objection).
+Taking into account the nature of the Processing, Pipeboard will assist the Customer by appropriate technical and organizational measures, insofar as this is possible, for the fulfilment of the Customer's obligation to respond to requests from Data Subjects exercising their rights under Chapter III GDPR (including rights of access, rectification, erasure, restriction, portability, and objection) and, where the LGPD applies, the rights of _titulares_ under Article 18 of the LGPD.
 
 Where a Data Subject contacts Pipeboard directly with a request relating to Customer Personal Data, Pipeboard will promptly forward the request to the Customer and will not respond on the substance of the request itself, unless the Customer instructs Pipeboard to do so. Customers can also delete the data of an end user themselves by following the steps on the [User Data Protection](https://pipeboard.co/user-data-protection) page.
 
@@ -79,7 +81,7 @@ Pipeboard will notify the Customer without undue delay, and in any event within 
 - the likely consequences of the Personal Data Breach, and
 - the measures taken or proposed to address the Personal Data Breach and to mitigate its possible adverse effects.
 
-Pipeboard will provide reasonable cooperation and information to assist the Customer in fulfilling its own notification obligations under Articles 33 and 34 GDPR. Notifications will be sent to the email address associated with the Customer's account; the Customer is responsible for keeping that address current.
+Pipeboard will provide reasonable cooperation and information to assist the Customer in fulfilling its own notification obligations under Articles 33 and 34 GDPR and, where the LGPD applies, the Customer's communication obligations to the ANPD and to _titulares_ under Article 48 of the LGPD. Notifications will be sent to the email address associated with the Customer's account; the Customer is responsible for keeping that address current.
 
 ## 10. Data Protection Impact Assessments and Prior Consultation
 
@@ -107,6 +109,8 @@ For transfers from the United Kingdom, the parties agree that the UK Addendum ap
 
 For transfers from Switzerland, the SCCs apply with the modifications required by the Swiss Federal Data Protection and Information Commissioner: references to the GDPR are construed as references to the FADP, and the competent supervisory authority is the Swiss FDPIC for data subjects in Switzerland.
 
+For Personal Data subject to the LGPD that is transferred outside Brazil, the transfer relies on a basis admitted by Article 33 of the LGPD — including the Standard Contractual Clauses or specific clauses approved by the ANPD where available, an adequacy recognition, or the Customer's instruction or consent — and the parties will cooperate to keep the transfer mechanism current with ANPD regulation.
+
 ## 12. Audits
 
 Pipeboard will make available to the Customer all information reasonably necessary to demonstrate compliance with the obligations laid down in Article 28 GDPR and this DPA, and will allow for and contribute to audits, including inspections, conducted by the Customer or another auditor mandated by the Customer.
@@ -129,7 +133,7 @@ This DPA takes effect on the date of acceptance and remains in force for as long
 
 ## 16. Order of Precedence and Changes
 
-In the event of any conflict between this DPA and the Principal Agreement, this DPA will prevail to the extent of the conflict. In the event of any conflict between this DPA and the Standard Contractual Clauses, the Standard Contractual Clauses will prevail to the extent of the conflict.
+In the event of any conflict between this DPA and the Principal Agreement, this DPA will prevail to the extent of the conflict. In the event of any conflict between this DPA and the Standard Contractual Clauses, the Standard Contractual Clauses will prevail to the extent of the conflict. As to Personal Data governed by the LGPD, [Annex IV](#annex-iv--brazil-lgpd-addendum) (Brazil / LGPD Addendum) prevails over this DPA and the Principal Agreement to the extent of the conflict.
 
 Pipeboard may update this DPA from time to time. Each update is published as a commit in the public repository [pipeboard-co/Data-Processing-Agreement](https://github.com/pipeboard-co/Data-Processing-Agreement); the commit history is the authoritative change log. Where a change materially reduces the protection afforded to Customer Personal Data, Pipeboard will additionally announce the change at least seven (7) days in advance via email to the Customer's account contact and via the GitHub release notes.
 
@@ -275,3 +279,61 @@ Pipeboard engages the following Sub-processors to support the delivery of the Se
 The list above is current as of the date stated at the top of this DPA. The authoritative, current list lives in [pipeboard-co/Data-Processing-Agreement](https://github.com/pipeboard-co/Data-Processing-Agreement) on GitHub; the commit history is the change log. Subscribe to changes by clicking "Watch" on the repository.
 
 Note on connected advertising and commerce platforms: Meta, Google, Pinterest, TikTok, Snap, and Shopify are independent Controllers of the data on their platforms. Pipeboard accesses those platforms on the Customer's instructions under the Customer's own platform credentials, and does not engage them as Sub-processors of Customer Personal Data.
+
+---
+
+## Annex IV — Brazil (LGPD) Addendum
+
+This Brazil (LGPD) Addendum supplements this DPA and applies where the Customer is established in Brazil or the Processing is subject to the LGPD (Lei n. 13.709/2018). Solely as to LGPD-governed Personal Data, it prevails over this DPA and the Principal Agreement to the extent of any conflict.
+
+### 1. Definitions and Equivalence
+
+For the purposes of this Annex IV, the terms used in this DPA have their LGPD equivalents: Controller corresponds to _controlador_ (Article 5, VI); Processor / Pipeboard corresponds to _operador_ (Article 5, VII); Data Subject corresponds to _titular_ (Article 5, V); Processing corresponds to _tratamento_ (Article 5, X); and Personal Data Breach corresponds to _incidente de segurança_. **"ANPD"** means the Autoridade Nacional de Proteção de Dados, Brazil's national data protection authority.
+
+### 2. Roles
+
+The Customer is the _controlador_ and Pipeboard is the _operador_. Where the Customer is itself an _operador_, Pipeboard acts as _suboperador_. For Personal Data that Pipeboard Processes for its own purposes, Pipeboard is an independent _controlador_.
+
+### 3. Legal Basis and Instructions
+
+The Customer warrants that it has a valid legal basis under Article 7 (and, for sensitive personal data, Article 11) of the LGPD and that it has provided any information and obtained any consent required. Pipeboard Processes Personal Data only on the Customer's documented instructions and will flag any instruction that, in its opinion, infringes the LGPD.
+
+### 4. Security
+
+Pipeboard maintains the technical and organizational measures set out in [Annex II](#annex-ii--technical-and-organizational-measures) of this DPA, in line with Articles 46 to 49 of the LGPD.
+
+### 5. Security Incidents
+
+Pipeboard notifies the Customer within seventy-two (72) hours of becoming aware of a security incident affecting Personal Data and assists the Customer with its communication to the ANPD and to affected _titulares_ under Article 48 of the LGPD. The duty to communicate the incident to the ANPD and to _titulares_ rests with the Customer as _controlador_.
+
+### 6. Data-Subject Rights
+
+Pipeboard assists the Customer in responding to _titular_ requests under Article 18 of the LGPD. Requests that _titulares_ direct to Pipeboard are forwarded to the Customer in accordance with Section 8 of this DPA.
+
+### 7. Sub-processing
+
+The authorized _suboperadores_ are those listed in [Annex III](#annex-iii--sub-processors) of this DPA, engaged under the same change-notification mechanism set out in Section 7. Pipeboard remains liable to the Customer for their performance.
+
+### 8. International Transfer
+
+Transfers of Personal Data outside Brazil rely on a basis admitted by Article 33 of the LGPD, as described in Section 11 of this DPA.
+
+### 9. Retention and Elimination
+
+At the Customer's choice, Pipeboard deletes or returns Personal Data within thirty (30) days, save where retention is required by law, in accordance with Section 13 of this DPA and Articles 15 and 16 of the LGPD.
+
+### 10. Records and Accountability
+
+Pipeboard maintains records of its Processing operations as _operador_ under Article 37 of the LGPD and supports the Customer in demonstrating compliance, on the audit terms set out in Section 12 of this DPA.
+
+### 11. Liability
+
+Liability under this Annex IV is subject to the limitations and exclusions of liability set out in the Principal Agreement, save for any liability that cannot be excluded under applicable law. The allocation of responsibility between _operador_ and _controlador_ under Articles 42 to 45 of the LGPD is preserved.
+
+### 12. Governing Law and Disputes
+
+This Annex IV is governed by Brazilian law. Disputes follow the dispute-resolution provisions of the Principal Agreement (arbitration before the 12ª Corte, Goiânia/GO, with the courts of Goiânia competent for urgent measures), without affecting the regime of the Standard Contractual Clauses under Section 11.
+
+### 13. Order of Precedence
+
+As to LGPD-governed Personal Data, this Annex IV prevails over this DPA and the Principal Agreement to the extent of any conflict; otherwise this DPA remains in full force.
