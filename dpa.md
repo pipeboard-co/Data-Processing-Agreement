@@ -2,7 +2,7 @@
 
 Also referred to as _Auftragsverarbeitungsvertrag_ (AVV) under German law.
 
-**Last updated:** June 9, 2026
+**Last updated:** June 18, 2026
 
 This Data Processing Agreement (the **"DPA"**) forms part of the agreement between the customer (**"Customer"**, also referred to as the **"Controller"**) and **ARTELL SOLUÇÕES TECNOLÓGICAS LTDA**, a limited liability company registered in Brazil (CNPJ 53.540.982/0001-70), trading as **Pipeboard** (**"Pipeboard"**, **"we"**, or the **"Processor"**), governing the use of the Pipeboard service (the **"Service"**) under the Pipeboard [Terms of Service](https://pipeboard.co/terms-of-service) and [Privacy Policy](https://pipeboard.co/privacy-policy) (together, the **"Principal Agreement"**).
 
@@ -39,7 +39,7 @@ The subject matter, duration, nature, and purpose of the Processing, the types o
 
 Pipeboard will Process Customer Personal Data only on documented instructions from the Customer, including with regard to transfers of Customer Personal Data to a third country or an international organization, unless required to do so by Union or Member State law to which Pipeboard is subject. In such a case, Pipeboard will inform the Customer of that legal requirement before Processing, unless that law prohibits such information on important grounds of public interest.
 
-The Customer's use of the Service in accordance with the Principal Agreement, including configuration of features, connections to ad and commerce platforms (Meta Ads, Google Ads, Pinterest Ads, TikTok Ads, Snap Ads, Shopify), creation and use of API tokens, scheduled reports, and prompts issued through the Customer's chosen MCP client or AI assistant, constitutes documented instructions for the purposes of this DPA. Additional or different instructions may be issued in writing to privacy@pipeboard.co; Pipeboard will accommodate them where they fall within the scope of the Service and are technically feasible.
+The Customer's use of the Service in accordance with the Principal Agreement, including configuration of features, connections to ad and commerce platforms (Meta Ads, Google Ads, Pinterest Ads, TikTok Ads, Snap Ads, LinkedIn Ads, Reddit Ads, Microsoft Advertising, Shopify), creation and use of API tokens, scheduled reports, and prompts issued through the Customer's chosen MCP client or AI assistant, constitutes documented instructions for the purposes of this DPA. Additional or different instructions may be issued in writing to privacy@pipeboard.co; Pipeboard will accommodate them where they fall within the scope of the Service and are technically feasible.
 
 Pipeboard will inform the Customer immediately if, in its opinion, an instruction infringes Data Protection Laws.
 
@@ -172,14 +172,16 @@ No formal Data Protection Officer (DPO) is appointed; Pipeboard's privacy contac
 
 ### C. Nature and Purpose of Processing
 
-Pipeboard Processes Customer Personal Data in order to: (i) authenticate users via email/password or OAuth providers; (ii) read and, where the Customer instructs, modify advertising and commerce data on connected platforms (Meta Ads, Google Ads, Pinterest Ads, TikTok Ads, Snap Ads, Shopify); (iii) enable the Customer's chosen AI assistant or LLM client to access and act on that data through Pipeboard's MCP servers, and generate recurring reports through features such as Scheduled Reports; (iv) operate, secure, monitor, and support the Service; and (v) bill the Customer.
+Pipeboard Processes Customer Personal Data in order to: (i) authenticate users via email/password or OAuth providers; (ii) read and, where the Customer instructs, modify advertising and commerce data on connected platforms (Meta Ads, Google Ads, Pinterest Ads, TikTok Ads, Snap Ads, LinkedIn Ads, Reddit Ads, Microsoft Advertising, Shopify); (iii) enable the Customer's chosen AI assistant or LLM client to access and act on that data through Pipeboard's MCP servers, and generate recurring reports through features such as Scheduled Reports; (iv) operate, secure, monitor, and support the Service; and (v) bill the Customer.
 
 ### D. Types of Personal Data
 
 - **Account data:** name, email address, hashed password (where email/password sign-in is used), provider user ID for OAuth sign-ins (Facebook, Google, GitHub, SSO).
-- **Authentication tokens:** OAuth access and refresh tokens for Meta Ads, Google Ads, Pinterest Ads, TikTok Ads, Snap Ads, and Shopify; Pipeboard API tokens. Stored encrypted.
+- **Authentication tokens:** OAuth access and refresh tokens for Meta Ads, Google Ads, Pinterest Ads, TikTok Ads, Snap Ads, LinkedIn Ads, Reddit Ads, Microsoft Advertising, and Shopify (and, for Meta, Facebook Page access tokens); Pipeboard API tokens. Stored encrypted.
 - **Advertising and commerce data:** ad account, campaign, ad group, ad, creative, audience, keyword, placement, and performance metrics retrieved from the connected platforms; pixel and conversion configuration metadata; identifiers of ad accounts, business managers, MCC accounts, advertisers, organizations, and Shopify shops.
-- **Shopify-customer data (only where the Customer enables features that require it):** Pipeboard accesses Shopify customer personal data only to the extent necessary to provide the requested feature, in accordance with Shopify's Protected Customer Data requirements.
+- **Lead form responses (only where the Customer enables features that require it):** where the Customer connects LinkedIn and grants the lead-generation permission, the responses people submit through the Customer's LinkedIn lead generation forms, which may include the lead's name, email address, phone number, job title, employer, and answers to the form's questions. On Meta, Reddit, and Pinterest, Pipeboard reads lead form configuration only and does not retrieve submitted responses.
+- **Customer identifiers transmitted on the Customer's instruction (only where the Customer enables features that require it):** where the Customer instructs Pipeboard to send server-side conversion events (to Meta, Pinterest, Reddit, or LinkedIn) or to build custom or lookalike audiences (on Meta, TikTok, Snap, or Pinterest), the identifiers contained in those uploads, such as email addresses, phone numbers, and mobile advertising IDs. Pipeboard normalizes and SHA-256 hashes these identifiers before transmission, so the receiving platform receives only hashes.
+- **Shopify-customer data (only where the Customer enables features that require it):** Shopify customer personal data such as names, email addresses, shipping and billing addresses, and order line items, and — only where the Customer has granted Shopify Protected Customer Data Access — order attribution and journey details. Pipeboard accesses this data only to the extent necessary to provide the requested feature, in accordance with Shopify's Protected Customer Data requirements.
 - **Service usage and operational metadata:** request and response metadata for MCP and HTTP requests (timestamps, tool name, request ID, status, duration, response size), error events, IP addresses, user-agent strings, and other technical telemetry.
 - **Billing data:** billing email, company name, billing address, tax ID/VAT, and Stripe customer/subscription identifiers. Card numbers are processed directly by Stripe and are not stored by Pipeboard.
 - **Support and communications data:** messages exchanged with Pipeboard support (for example, via Crisp) and the email address used.
@@ -191,7 +193,7 @@ The Service is not designed to Process special categories of Personal Data withi
 ### F. Categories of Data Subjects
 
 - The Customer's users and team members who access the Service.
-- The Customer's end users and prospects whose information appears in the connected advertising or commerce platforms (for example, Shopify customers, where that feature is enabled by the Customer).
+- The Customer's end users, leads, and prospects whose information appears in the connected advertising or commerce platforms — for example, people who submit the Customer's lead generation forms (such as on LinkedIn) and Shopify customers, where those features are enabled by the Customer.
 - Authorized contacts of the Customer (for example, billing and security contacts).
 
 ### G. Frequency of Transfer
@@ -278,7 +280,7 @@ Pipeboard engages the following Sub-processors to support the delivery of the Se
 
 The list above is current as of the date stated at the top of this DPA. The authoritative, current list lives in [pipeboard-co/Data-Processing-Agreement](https://github.com/pipeboard-co/Data-Processing-Agreement) on GitHub; the commit history is the change log. Subscribe to changes by clicking "Watch" on the repository.
 
-Note on connected advertising and commerce platforms: Meta, Google, Pinterest, TikTok, Snap, and Shopify are independent Controllers of the data on their platforms. Pipeboard accesses those platforms on the Customer's instructions under the Customer's own platform credentials, and does not engage them as Sub-processors of Customer Personal Data.
+Note on connected advertising and commerce platforms: Meta, Google, Pinterest, TikTok, Snap, LinkedIn, Reddit, Microsoft, and Shopify are independent Controllers of the data on their platforms. Pipeboard accesses those platforms on the Customer's instructions under the Customer's own platform credentials, and does not engage them as Sub-processors of Customer Personal Data.
 
 ---
 
