@@ -2,7 +2,7 @@
 
 Also referred to as _Auftragsverarbeitungsvertrag_ (AVV) under German law.
 
-**Last updated:** June 18, 2026
+**Last updated:** July 29, 2026
 
 This Data Processing Agreement (the **"DPA"**) forms part of the agreement between the customer (**"Customer"**, also referred to as the **"Controller"**) and **ARTELL SOLUÇÕES TECNOLÓGICAS LTDA**, a limited liability company registered in Brazil (CNPJ 53.540.982/0001-70), trading as **Pipeboard** (**"Pipeboard"**, **"we"**, or the **"Processor"**), governing the use of the Pipeboard service (the **"Service"**) under the Pipeboard [Terms of Service](https://pipeboard.co/terms-of-service) and [Privacy Policy](https://pipeboard.co/privacy-policy) (together, the **"Principal Agreement"**).
 
@@ -39,7 +39,7 @@ The subject matter, duration, nature, and purpose of the Processing, the types o
 
 Pipeboard will Process Customer Personal Data only on documented instructions from the Customer, including with regard to transfers of Customer Personal Data to a third country or an international organization, unless required to do so by Union or Member State law to which Pipeboard is subject. In such a case, Pipeboard will inform the Customer of that legal requirement before Processing, unless that law prohibits such information on important grounds of public interest.
 
-The Customer's use of the Service in accordance with the Principal Agreement, including configuration of features, connections to ad and commerce platforms (Meta Ads, Google Ads, Pinterest Ads, TikTok Ads, Snap Ads, LinkedIn Ads, Reddit Ads, Microsoft Advertising, Shopify), creation and use of API tokens, scheduled reports, and prompts issued through the Customer's chosen MCP client or AI assistant, constitutes documented instructions for the purposes of this DPA. Additional or different instructions may be issued in writing to privacy@pipeboard.co; Pipeboard will accommodate them where they fall within the scope of the Service and are technically feasible.
+The Customer's use of the Service in accordance with the Principal Agreement, including configuration of features, connections to ad and commerce platforms (Meta Ads, Google Ads, Pinterest Ads, TikTok Ads, Snap Ads, LinkedIn Ads, Reddit Ads, Microsoft Advertising, Shopify), creation and use of API tokens, scheduled reports, and prompts issued through the Customer's chosen MCP client or AI assistant, constitutes documented instructions for the purposes of this DPA. Where the Customer is a Partner, provisioning end users and initiating connections through the Partner API (as described in [Annex V](#annex-v--partner-program-addendum)) likewise constitutes documented instructions. Additional or different instructions may be issued in writing to privacy@pipeboard.co; Pipeboard will accommodate them where they fall within the scope of the Service and are technically feasible.
 
 Pipeboard will inform the Customer immediately if, in its opinion, an instruction infringes Data Protection Laws.
 
@@ -152,7 +152,12 @@ CNPJ: 53.540.982/0001-70
 Email: privacy@pipeboard.co
 Web: https://pipeboard.co
 
-No formal Data Protection Officer (DPO) is appointed; Pipeboard's privacy contact for all inquiries is privacy@pipeboard.co.
+Pipeboard has appointed a Data Protection Officer (_Encarregado_ under Article 41 of the LGPD):
+
+**Paulo Marcos de Campos Batista**
+Email: privacy@pipeboard.co
+
+In accordance with ANPD Resolução CD/ANPD nº 18/2024, the identity and contact details of the Encarregado are published here and in Pipeboard's [Privacy Policy](https://pipeboard.co/privacy-policy). privacy@pipeboard.co is the channel for all data protection inquiries, including requests from data subjects and communications with the ANPD, and reaches the Encarregado directly.
 
 ---
 
@@ -179,7 +184,8 @@ Pipeboard Processes Customer Personal Data in order to: (i) authenticate users v
 - **Account data:** name, email address, hashed password (where email/password sign-in is used), provider user ID for OAuth sign-ins (Facebook, Google, GitHub, SSO).
 - **Authentication tokens:** OAuth access and refresh tokens for Meta Ads, Google Ads, Pinterest Ads, TikTok Ads, Snap Ads, LinkedIn Ads, Reddit Ads, Microsoft Advertising, and Shopify (and, for Meta, Facebook Page access tokens); Pipeboard API tokens. Stored encrypted.
 - **Advertising and commerce data:** ad account, campaign, ad group, ad, creative, audience, keyword, placement, and performance metrics retrieved from the connected platforms; pixel and conversion configuration metadata; identifiers of ad accounts, business managers, MCC accounts, advertisers, organizations, and Shopify shops.
-- **Lead form responses (only where the Customer enables features that require it):** where the Customer connects LinkedIn and grants the lead-generation permission, the responses people submit through the Customer's LinkedIn lead generation forms, which may include the lead's name, email address, phone number, job title, employer, and answers to the form's questions. On Meta, Reddit, and Pinterest, Pipeboard reads lead form configuration only and does not retrieve submitted responses.
+- **Lead form responses (only where the Customer or the Customer's AI assistant requests them):** the responses people submit through the Customer's lead generation forms, which may include the lead's name, email address, phone number, job title, employer, and answers to the form's questions. This applies to **Meta**, where the lead-retrieval permission forms part of the standard Meta connection, so retrieval is available on request for any connected ad account; and to **LinkedIn**, which additionally requires the Customer to grant the lead-generation permission and to have the LinkedIn integration enabled for its account. On **Google Ads** and **Pinterest**, lead form submissions are not exposed by a dedicated Pipeboard feature, but can be reached through the general-purpose query and API tools those integrations provide, to the extent the Customer's own account and granted permissions expose them. On **Reddit**, **TikTok**, **Snap**, and **Microsoft Advertising**, Pipeboard reads lead form configuration only and does not retrieve submitted responses.
+- **Comments on the Customer's own content (only where the Customer or the Customer's AI assistant requests them):** where the Customer connects Meta, the comments left on the Customer's Facebook Page posts, Instagram posts, and the posts underlying their ads, including the commenter's name, their platform user ID, and the text of the comment and any replies. Where the Customer connects Reddit, the public posts of a Reddit account the Customer asks Pipeboard to look up, including the account name and the post text. Features that read Facebook Page or Instagram inbox messages are not available to customer accounts; should they be released, this Annex will be updated before they are.
 - **Customer identifiers transmitted on the Customer's instruction (only where the Customer enables features that require it):** where the Customer instructs Pipeboard to send server-side conversion events (to Meta, Pinterest, Reddit, or LinkedIn) or to build custom or lookalike audiences (on Meta, TikTok, Snap, or Pinterest), the identifiers contained in those uploads, such as email addresses, phone numbers, and mobile advertising IDs. Pipeboard normalizes and SHA-256 hashes these identifiers before transmission, so the receiving platform receives only hashes.
 - **Shopify-customer data (only where the Customer enables features that require it):** Shopify customer personal data such as names, email addresses, shipping and billing addresses, and order line items, and — only where the Customer has granted Shopify Protected Customer Data Access — order attribution and journey details. Pipeboard accesses this data only to the extent necessary to provide the requested feature, in accordance with Shopify's Protected Customer Data requirements.
 - **Service usage and operational metadata:** request and response metadata for MCP and HTTP requests (timestamps, tool name, request ID, status, duration, response size), error events, IP addresses, user-agent strings, and other technical telemetry.
@@ -193,8 +199,9 @@ The Service is not designed to Process special categories of Personal Data withi
 ### F. Categories of Data Subjects
 
 - The Customer's users and team members who access the Service.
-- The Customer's end users, leads, and prospects whose information appears in the connected advertising or commerce platforms — for example, people who submit the Customer's lead generation forms (such as on LinkedIn) and Shopify customers, where those features are enabled by the Customer.
+- The Customer's end users, leads, and prospects whose information appears in the connected advertising or commerce platforms — for example, people who submit the Customer's lead generation forms (such as on Meta and LinkedIn), people who comment on the Customer's posts or ads, and Shopify customers, where those features are used by the Customer.
 - Authorized contacts of the Customer (for example, billing and security contacts).
+- Where the Customer is a Partner under the Partner Program Addendum ([Annex V](#annex-v--partner-program-addendum)), the end users the Partner provisions through the Partner API (identified to Pipeboard only by an external user ID and, optionally, an email address).
 
 ### G. Frequency of Transfer
 
@@ -205,6 +212,7 @@ Continuous, on a transactional basis, for the duration of the Service.
 - **User account data:** retained for the duration of the account, and deleted within thirty (30) days after account closure or a verified deletion request.
 - **OAuth tokens and Pipeboard API tokens:** retained while the account is active or until revoked by the Customer; deleted on account closure.
 - **Advertising and commerce data accessed via platform APIs:** not retained long-term; cached briefly (typically minutes to a few hours) for performance and reliability. Pipeboard may store a small per-user cache of recent aggregate metrics and the ad-account list to accelerate Insights reports.
+- **Lead form responses, comments, and Shopify-customer data:** not retained. These are read from the platform on request, returned to the Customer's AI assistant, and are not written to Pipeboard's database, its caches, or its application logs.
 - **Application and request logs:** retained for up to thirty (30) days, then deleted automatically.
 - **Backups:** encrypted and retained in accordance with Pipeboard's managed-database backup rotation, after which deleted Personal Data is purged from backups by normal rotation.
 - **Billing records:** retained for as long as required by tax and accounting law applicable to Pipeboard.
@@ -339,3 +347,33 @@ This Annex IV is governed by Brazilian law. Disputes follow the dispute-resoluti
 ### 13. Order of Precedence
 
 As to LGPD-governed Personal Data, this Annex IV prevails over this DPA and the Principal Agreement to the extent of any conflict; otherwise this DPA remains in full force.
+
+---
+
+## Annex V — Partner Program Addendum
+
+This Annex V applies where the Customer integrates the Service into its own product or application and provisions accounts for its own end users through Pipeboard's Partner API (`pb_partner_...` API keys, the endpoints under `/api/v1/partners/`, and the associated Partner Portal at pipeboard.co/partners/portal) (a **"Partner"**, and each such end user a **"Partner End User"**).
+
+### 1. Partner is a Customer
+
+A Partner is a Customer for all purposes of this DPA and the Principal Agreement. Where this DPA refers to Customer Personal Data, Data Subjects, or the Customer's instructions, those terms include, respectively, Partner End User data, Partner End Users, and instructions given through the Partner API or the Partner Portal.
+
+### 2. Roles
+
+As between the Partner and its own end users, the Partner is the Controller (_controlador_, where the LGPD applies) of Partner End User data. Pipeboard Processes Partner End User data solely on the Partner's instructions, as Processor (_operador_), in the same capacity described in Section 2 of this DPA for any other Customer.
+
+### 3. Partner End User Data
+
+Provisioning a Partner End User transmits, at minimum, an external user identifier chosen by the Partner and, where the Partner's `require_email` setting calls for it, an email address. Pipeboard creates an internal account for the Partner End User to enable OAuth connections to advertising platforms and MCP access on the Partner's instruction; Pipeboard does not independently collect Partner End User data by any other means. The Partner End User's connected-platform data, OAuth tokens, and MCP usage are Processed exactly as described in Annex I for any other Customer's end users.
+
+### 4. Partner Warranties
+
+The Partner represents and warrants that: (a) it has all necessary rights, consents, and legal basis under applicable Data Protection Laws (including, where applicable, the LGPD) to share its end users' identifiers with Pipeboard and to instruct Pipeboard to Process their data as described in this Annex V; and (b) it has informed its end users, to the extent required by applicable law, that a portion of the Service is provided by Pipeboard as a Processor.
+
+### 5. Acceptance
+
+This Annex V, and the DPA it forms part of, take effect for a Partner when the Partner's own contact person accepts it by clicking through an acceptance screen on first sign-in to the Partner Portal. A Partner's API key does not authorize Processing of Partner End User data until this has occurred. Pipeboard records the date, the accepting party, and the version of this Annex V that was in effect. Partners registered before this Annex V existed are treated as having accepted it as of the date Pipeboard began enforcing this Section, so their existing integrations are not interrupted.
+
+### 6. Precedence
+
+As between this Annex V and the rest of the DPA, this Annex V governs the Partner relationship to the extent of any conflict. Where the LGPD applies to a Partner or its end users, [Annex IV](#annex-iv--brazil-lgpd-addendum) applies in addition to this Annex V.
