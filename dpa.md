@@ -2,7 +2,7 @@
 
 Also referred to as _Auftragsverarbeitungsvertrag_ (AVV) under German law.
 
-**Last updated:** July 29, 2026
+**Last updated:** July 30, 2026
 
 This Data Processing Agreement (the **"DPA"**) forms part of the agreement between the customer (**"Customer"**, also referred to as the **"Controller"**) and **ARTELL SOLUÇÕES TECNOLÓGICAS LTDA**, a limited liability company registered in Brazil (CNPJ 53.540.982/0001-70), trading as **Pipeboard** (**"Pipeboard"**, **"we"**, or the **"Processor"**), governing the use of the Pipeboard service (the **"Service"**) under the Pipeboard [Terms of Service](https://pipeboard.co/terms-of-service) and [Privacy Policy](https://pipeboard.co/privacy-policy) (together, the **"Principal Agreement"**).
 
@@ -121,7 +121,7 @@ The Customer's audit right will ordinarily be satisfied by Pipeboard providing, 
 
 At the choice of the Customer, Pipeboard will delete or return all Customer Personal Data after the end of the provision of services relating to Processing, and delete existing copies, unless storage is required by Union or Member State law.
 
-The Customer may at any time use the in-product self-service deletion controls (see the [User Data Protection](https://pipeboard.co/user-data-protection) page) or write to privacy@pipeboard.co to request deletion. Deletion is performed within thirty (30) days of the request and propagates to backups in accordance with Pipeboard's standard backup rotation. Logs containing Customer-related metadata are retained for up to thirty (30) days from creation and are deleted automatically thereafter.
+The Customer may at any time use the in-product self-service deletion controls (see the [User Data Protection](https://pipeboard.co/user-data-protection) page) or write to privacy@pipeboard.co to request deletion. Deletion is performed within thirty (30) days of the request and propagates to backups in accordance with Pipeboard's standard backup rotation. Logs containing Customer-related metadata are retained for up to ninety (90) days from creation and are deleted automatically thereafter.
 
 ## 14. Liability
 
@@ -213,7 +213,7 @@ Continuous, on a transactional basis, for the duration of the Service.
 - **OAuth tokens and Pipeboard API tokens:** retained while the account is active or until revoked by the Customer; deleted on account closure.
 - **Advertising and commerce data accessed via platform APIs:** not retained long-term; cached briefly (typically minutes to a few hours) for performance and reliability. Pipeboard may store a small per-user cache of recent aggregate metrics and the ad-account list to accelerate Insights reports.
 - **Lead form responses, comments, and Shopify-customer data:** not retained. These are read from the platform on request, returned to the Customer's AI assistant, and are not written to Pipeboard's database, its caches, or its application logs.
-- **Application and request logs:** retained for up to thirty (30) days, then deleted automatically.
+- **Application and request logs:** retained for up to ninety (90) days, then deleted automatically. The Customer can view its most recent activity in the Logs tab in Settings and export its full ninety (90) day MCP command history as a CSV file at any time, giving the Customer an independent audit trail of actions taken through the Service.
 - **Backups:** encrypted and retained in accordance with Pipeboard's managed-database backup rotation, after which deleted Personal Data is purged from backups by normal rotation.
 - **Billing records:** retained for as long as required by tax and accounting law applicable to Pipeboard.
 
@@ -252,7 +252,7 @@ Backups are performed automatically on a regular schedule by the managed databas
 
 - Structured logging of MCP and HTTP requests (request ID, user ID, tool name, status, duration) via OpenTelemetry, exported to SigNoz.
 - Product analytics via PostHog; anomalies and error events surfaced through dashboards and alerts.
-- Logs containing Customer-related metadata are retained for up to thirty (30) days.
+- Logs containing Customer-related metadata are retained for up to ninety (90) days, then deleted automatically. Request and response payloads recorded in logs are written with end-user personal data redacted and credentials masked.
 
 ### 6. Personnel and Organizational Measures
 
