@@ -1,15 +1,9 @@
-# Pipeboard Data Processing Agreement
+# Pipeboard Data Processing Agreement — moved
 
-This is the canonical source of the Pipeboard Data Processing Agreement (DPA / Auftragsverarbeitungsvertrag).
+**This repository is no longer maintained.** The official Pipeboard Data Processing Agreement (DPA / Auftragsverarbeitungsvertrag) is published at **https://pipeboard.co/dpa**.
 
-The current version is in [`dpa.md`](./dpa.md). The same content is rendered for customers at https://pipeboard.co/dpa.
+- Every change is dated in the Change log at the end of the DPA.
+- To be alerted when it changes, point a page-monitoring tool of your choice (for example, Visualping, Distill, or Wachete) at https://pipeboard.co/dpa.
+- A counter-signed PDF is available on request from privacy@pipeboard.co.
 
-## Subscribing to changes
-
-Click **Watch → All Activity** (or **Releases**) on this repository to receive a GitHub notification whenever the DPA is updated. The commit history is the authoritative change log.
-
-If you prefer email, point a page-monitoring tool of your choice (for example, Visualping, Distill, or Wachete) at https://pipeboard.co/dpa.
-
-## Contact
-
-privacy@pipeboard.co
+This repository was last kept in sync on July 30, 2026. Its history is kept for reference only and does not reflect the current DPA.
